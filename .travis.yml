@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - "1.10"
+  - "tip"
+
+install:
+  - go get github.com/smartystreets/goconvey/convey
+  - go get github.com/pkg/errors
