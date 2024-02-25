@@ -1,12 +1,14 @@
 # Minecraft Go API
 
+This repository is based on [Minotar](https://github.com/minotar/minecraft) but has been changed to use VI Software Authentication Services
+
 ~~~ go
 package main
 
 import "github.com/minotar/minecraft"
 
 func main() {
-  uuid, _ := minecraft.GetUUID("clone1018")
+  uuid, _ := minecraft.GetUUID("Benson")
 
   skin, _ := minecraft.FetchSkinUUID(uuid)
 }
@@ -14,7 +16,7 @@ func main() {
 
 Install the package (**go 1.1** and greater is required):
 ~~~
-go get github.com/minotar/minecraft
+go get github.com/VI-Software/vis-minotar
 ~~~
 
 ## Features
@@ -24,4 +26,5 @@ go get github.com/minotar/minecraft
 
 
 ## License
-This is free and unencumbered software released into the public domain.
+
+This software is redistributed under the MIT License.
